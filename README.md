@@ -1,4 +1,4 @@
-# Matrix Colours plugin for Craft CMS 3.x
+# Matrix Colours plugin
 
 Define colours for your matrix field blocks to help visually separate them
 

@@ -2,7 +2,7 @@
 
 Define colours for your matrix field blocks to help visually separate them
 
-![Screenshot](resources/img/screenshot.png?v=2)
+![Screenshot](resources/img/screenshot-matrix.png)
 
 ## Requirements
 

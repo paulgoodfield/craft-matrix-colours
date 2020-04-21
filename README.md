@@ -1,4 +1,4 @@
-# Craft Matrix Colours plugin for Craft CMS 3.x
+# Matrix Colours plugin for Craft CMS 3.x
 
 Define colours for your matrix field blocks to help visually separate them
 
@@ -18,9 +18,9 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require bluegg/craft-matrix-colours/craft-matrix-colours
+        composer require paulgoodfield/craft-matrix-colours
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft Matrix Colours.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Matrix Colours.
 
 ## Craft Matrix Colours Overview
 
@@ -40,4 +40,4 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [Bluegg](https://bluegg.co.uk)
+Brought to you by [Paul Goodfield](https://paulgoodfield.com)

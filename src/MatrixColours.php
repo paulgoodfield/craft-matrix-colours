@@ -114,6 +114,17 @@ class MatrixColours extends Plugin
                 }
                 #fields-{$fieldHandle} .buttons .btn {
                     position: relative;
+                    border-bottom-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+                #fields-{$fieldHandle} .buttons .btngroup .btn:first-child:after {
+                    left: -1px;
+                    width: calc(100% + 1px);
+                }
+                #fields-{$fieldHandle} .buttons .btngroup .btn:last-child:after {
+                    left: auto;
+                    right: -1px;
+                    width: calc(100% + 1px);
                 }
                 #fields-{$fieldHandle} .buttons .btn:after {
                     content: '';

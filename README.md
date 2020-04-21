@@ -2,7 +2,7 @@
 
 Define colours for your matrix field blocks to help visually separate them
 
-![Icon](resources/img/icon.png)
+![Screenshot](resources/img/screenshot.png)
 
 ## Requirements
 
@@ -20,24 +20,22 @@ To install the plugin, follow these instructions.
 
         composer require paulgoodfield/craft-matrix-colours
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Matrix Colours.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for **Matrix Colours**.
 
-## Craft Matrix Colours Overview
+## Configuring Matrix Colours
 
--Insert text here-
+Once installed, create a `matrix-colours.php` file in your `config` directory. This file should return an associative array with the following structure:
 
-## Configuring Craft Matrix Colours
-
--Insert text here-
-
-## Using Craft Matrix Colours
-
--Insert text here-
-
-## Craft Matrix Colours Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
-
-Brought to you by [Paul Goodfield](https://paulgoodfield.com)
+```php
+<?php
+return [
+    'matrixFieldHandle' => [
+        'blockType1' => '#00AB31',
+        'blockType2' => '#ECBA79'
+    ],
+    'anotherMatrixFieldHandle' => [
+        'blockType1' => '#03FCB6',
+        'blockType2' => '#D303FC'
+    ]
+];
+```

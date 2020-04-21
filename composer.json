@@ -1,0 +1,45 @@
+{
+    "name": "paulgoodfield/craft-matrix-colours",
+    "description": "Define colours for your Craft CMS matrix field blocks to help visually separate them",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft matrix colours",
+        "craft matrix colors",
+        "matrix",
+        "colours",
+        "colors"
+    ],
+    "support": {
+        "docs": "https://github.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/blob/master/README.md",
+        "issues": "https://github.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Goodfield",
+            "homepage": "https://paulgoodfield.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "paulgoodfield\\matrixcolours\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Matrix Colours",
+        "handle": "matrix-colours",
+        "developer": "Paul Goodfield",
+        "developerUrl": "https://bluegg.co.uk",
+        "documentationUrl": "https://github.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/master/CHANGELOG.md",
+        "class": "paulgoodfield\\matrixcolours\\MatrixColours"
+    }
+}

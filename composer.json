@@ -15,8 +15,8 @@
         "colors"
     ],
     "support": {
-        "docs": "https://github.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/blob/master/README.md",
-        "issues": "https://github.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/issues"
+        "docs": "https://github.com/paulgoodfield/craft-matrix-colours/blob/master/README.md",
+        "issues": "https://github.com/paulgoodfield/craft-matrix-colours/issues"
     },
     "license": "MIT",
     "authors": [
@@ -37,9 +37,8 @@
         "name": "Matrix Colours",
         "handle": "matrix-colours",
         "developer": "Paul Goodfield",
-        "developerUrl": "https://bluegg.co.uk",
-        "documentationUrl": "https://github.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/blob/master/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/paulgoodfield/craft-matrix-colours/craft-matrix-colours/master/CHANGELOG.md",
+        "developerUrl": "https://paulgoodfield.com",
+        "documentationUrl": "https://github.com/paulgoodfield/craft-matrix-colours/blob/master/README.md",
         "class": "paulgoodfield\\matrixcolours\\MatrixColours"
     }
 }

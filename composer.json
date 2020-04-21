@@ -2,7 +2,7 @@
     "name": "paulgoodfield/craft-matrix-colours",
     "description": "Define colours for your Craft CMS matrix field blocks to help visually separate them",
     "type": "craft-plugin",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "keywords": [
         "craft",
         "cms",

@@ -1,4 +1,4 @@
-# Matrix Colours plugin
+# Matrix Colours
 
 Define colours for your matrix field blocks to help visually separate them
 
